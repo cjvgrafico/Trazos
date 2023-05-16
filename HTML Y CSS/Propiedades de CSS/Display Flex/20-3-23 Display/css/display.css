@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   /*ni el padding ni el border ciuetan como tamaño extral si n que la caja crece hacie dentro*/
+}
+
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.margin-y{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.margin-x{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+div{
+    padding: 0px 10px;
+    width: 25%;
+    background-color: aquamarine;
+    border: 25px solid white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; /* align items alinar en horizontal*/
+    padding: 10px 10px;
+    align-items: center;  /* align items alinar en vertical*/
+
+    /* NO FUNCIONAN SI NO HAY UN DISPLAY CONTENT FLEX */
+}

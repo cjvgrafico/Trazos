@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 50%;
+    margin: auto;
+}
+
+form, h2{
+    margin-top: 50px;
+}
+
+#formulario2{
+    background-color: bisque;
+    padding: 20px;
+}
+
+#formulario2{
+    background-color: silver;
+    padding: 20px;
+}
+
+#formulario2 input, #formulario2 textarea, #formulario2 select{
+
+    width: 100%;
+    padding: ;
+    
+}
+
+
+

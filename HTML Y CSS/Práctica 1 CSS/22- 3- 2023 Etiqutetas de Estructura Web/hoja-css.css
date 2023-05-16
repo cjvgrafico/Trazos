@@ -1,0 +1,47 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.logo {margin-left: 0px;
+    width: 100px;}
+.medieval{font-family: 'Yeseva One', cursive;
+     color: gray; 
+     font-size: 8mm;}
+
+body{
+    background-color: beige;
+}
+
+header{
+    /*comentarios*/
+    background-color: white;
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+a {text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    }
+
+a nav {color: paleturquoise;}
+
+nav a{
+   background-color: paleturquoise; 
+}
+
+nav a:hover{
+    background-color: cyan;
+    width: 100px;
+    color: #000;
+}
+
+div p{color: blueviolet;}
+
+.contenedor{ 
+        width:80%
+        }

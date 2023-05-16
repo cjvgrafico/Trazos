@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+@font-face {
+    font-family: StretchPro;
+    src: url(../fonts/StretchPro.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:70%;
+    margin:auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+
+    border: 0px solid gray;
+    padding: 10px;
+    background-image: url(../img/Document_files/header\ back.jpeg);
+    image-rendering: pixelated;
+    margin: 20px 0px;
+    position: sticky;
+    top: 20px;
+    z-index: 9;
+}
+
+.logo{
+    width: 15%;
+}
+
+header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+}
+
+header nav a{
+
+    padding: 4px 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin: 0px 2px;
+    border-radius: 2px;
+    
+
+}
+
+header nav a:hover{
+
+    padding: 6px 10px;
+    background-color: white;
+    color: black;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    background-image: url(../img/Document_files/psicodelia.gif);
+
+}
+
+main section a{
+    text-decoration: none;
+}
+
+section{
+    margin: 10px 10px;
+}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.extremos{
+    justify-content: space-between;
+}
+
+.centrar{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.tresfilas{
+    width: 33,33%;
+}
+
+.dosfilas{
+    width: 50%;
+}
+
+.cuatrofilas{
+    width: 25%;
+}
+
+.imgpeke{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.divpeke{
+    /* width: 33.33%; */
+}
+
+.satur1{
+    filter: hue-rotate(90deg);
+}
+
+.satur2{
+    filter: hue-rotate(180deg);
+}
+
+.centrar{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.stretch{
+    font-family: StretchPro;
+}
+
+.imgpequena{
+    width: 75%;
+}
+
+.separarvertical{
+    margin: 50px 0px;
+}
+
+.ancho3{
+    width: 33.33%;
+}
+
+.ancho4{
+    width: 25%;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+footer div ol{
+    display: flex;
+}

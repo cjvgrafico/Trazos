@@ -1,0 +1,378 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+
+    /* border y padding forman parte de la caja */
+}
+
+.logo{
+    width: 12%;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+
+body{
+    max-width: 70%;
+    align-self: center;
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.extremos{
+    justify-content: space-between;
+
+}
+
+.centrar{
+text-align: center;
+}
+
+.dosfilas{
+    width: 50%;
+}
+
+.tresfilas{
+    width: 33.33%;
+}
+
+.cuatrofilas{
+    width: 25%;
+}
+
+
+header{
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 20px 0px; 
+    background-image: url(../img/hockey.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+    flex-wrap: wrap;
+
+    /*QUEDA MAL, COMO SE HACE EL STICKY?
+    position:fixed;
+    */
+}
+
+.fondo1
+
+header section{
+    width: 100%;
+    padding: 10px;
+    margin: -10px 0px;
+}
+
+header section ul{
+    list-style: none;
+}
+
+header section ul li{
+    width: 25%;
+}
+
+
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+
+header nav {
+    align-content: space-between;   /*no está funcionando pq no tiene un flex?*/
+}
+
+header nav a{
+    padding: 3px 6px;
+    font-family:'Oswald', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    
+    font-stretch: condensed;
+    
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: 0px 5px;
+    text-shadow: 2px 2px black;
+}
+
+header nav a:hover{
+    padding: 3px 6px;
+    font-family: 'Roboto', sans-serif;
+    
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+    text-shadow: 2px 2px black;
+}
+
+header section nav{
+
+}
+
+main section div{
+    padding: 10px;
+}
+
+main section div h2{
+    font-family:  'Roboto', sans-serif;
+    font-size: 24px;
+    font-stretch: condensed;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    margin-bottom: 10px;
+    
+}
+
+main section p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: gray;
+    margin: 20px 0px;
+}
+
+main section iframe{
+
+   width: 100%;
+   height: 100%;
+}
+    
+
+
+main section a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    
+    font-size: 13px;
+    color: white;
+    padding: 6px 10px;
+    background-color: rgb(183,118,176);
+    background: linear-gradient(rgba(183,118,176,1) 0%, rgba(0,88,164,1) 100%);
+    border-radius: 5px;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+ }
+
+ main section a:hover{
+    
+    background-color:  rgba(0,88,164,1);
+    background: linear-gradient(rgba(0,88,164,1) 0%, rgba(183,118,176,1) 100%);
+ }
+
+/*
+.bordeimg{
+    border-image: 100px white;
+}
+*/
+
+main section h1{
+
+    color: black;
+    font-family:  'Roboto', sans-serif;
+    font-size: 22px;
+
+    font-stretch:expanded;
+    font-weight: bold;
+
+    text-underline-offset: 8px;
+    
+    padding: 12px 12px;
+    text-align: center;
+
+    letter-spacing: 1m;
+
+    /*
+    text-transform: uppercase;
+    
+    */
+}
+
+.dobleborde{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+main section h1:hover{
+
+    color: black;
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+
+    background: rgb(183,118,176);
+    background: radial-gradient(circle, rgba(183,118,176,1) 0%, rgba(0,88,164,1) 100%);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-stretch: condensed;
+
+    margin-bottom: 20px;
+}
+
+footer section{
+    width: 25%;
+    text-align: center;
+}
+
+.tres{
+    width: 30%;
+}
+
+.siete{
+    width: 70%;
+}
+
+.comprar{
+    margin-top: 5px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+section h3{
+
+    font-size: 130px;
+    font-family: Oswald;
+    text-align: center;
+}
+
+.alineartop{
+    text-align: start;
+
+}
+
+.inlineflex{
+    display: inline-flex;
+}
+
+section img{
+    max-width: 100%;
+    margin: auto;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.cambiocolor{
+    filter: hue-rotate(155deg) contrast(105%);
+}
+
+
+
+
+/*todo esto lo copié de por ahí*/
+
+.parpadea {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+
+.titu{
+    font-family: Roboto;
+    font-size: 38px;
+    line-height: 40px;
+    color: black;
+}
+
+  .titu1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.grantitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin: 35px 0px;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.cuadro{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.separacion{
+    margin: 10px;
+}
+
+.separaciondivs{
+    margin: 10px 20px;
+}
+
+.byn{
+    filter: grayscale(100);
+}
+
+.byn:hover{
+    filter: grayscale(0) saturate(2);
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ol{
+    list-style: none;
+}
+
+

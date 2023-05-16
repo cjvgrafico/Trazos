@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* --- CLASES --- */
+
+body{
+    filter: hue-rotate(340deg);
+}
+
+.byn{
+    filter: grayscale(1);
+}
+
+.byn:hover{
+    filter: grayscale(0);
+}
+
+.sticky{
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+}
+
+.flex{
+    display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.i-block{
+    display: inline-block;
+}
+
+.separador{
+    width: 90%;
+    margin: 2% auto;
+}
+
+.adios{
+    display: none;
+}
+
+.rrss{
+    background-color: none;
+    display: flex;
+    justify-content: center;
+}
+
+.cover{
+    height: 100%;
+    object-fit: cover;
+}
+
+.card{
+    padding: 0%;
+    margin: 0%;
+    background-color: whitesmoke;
+    border-radius: 0%;
+    border: 1px solid whitesmoke;
+}
+
+.card2{
+    padding: 2% 2%;
+    margin: 0%;
+    background-color: #656339;
+    border-radius: 0%;
+}
+
+.marco{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.marco_2 img{
+    padding: 5%;
+    border-radius: 50%;
+}
+
+.animacion:hover{
+    transform: scaleX(-1);
+    transition: all 1s linear;
+ }
+
+.anback{
+    background-color: none;
+    border-radius: 50%;
+    transform: scaleX(-1);
+}   
+
+.anback:hover{
+    background-color: white;
+    border-radius: 50%;
+    transform: scaleX(1);
+}   
+
+.imgtxt{
+    position: relative;
+   }
+   
+.txtimg{
+   position: absolute;
+   top:30%;
+   bottom:70%;
+   left:5%;
+   right:5%;
+   } 
+
+.reves{
+    flex-direction: row-reverse;
+}
+
+.extremos{
+    justify-content: space-between;
+}
+
+.guepardo{
+    background-image: url(../img/gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+}
+
+.borde{
+    border: 1px solid gray;
+    padding-top: 1.5%;
+    background-color: whitesmoke;
+}
+
+    /*porqué eñ height no funciona con %???*/
+
+
+/* --- ETIQUETAS --- */
+
+/* afectan a todo el body*/
+
+img{
+    max-width: 100%;
+}
+
+body{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 4%;
+} 
+
+ul li{
+    color: white;
+    margin: 0% 10%;
+    background-color: #656339;
+}
+
+ul li:hover{
+    background-color: burlywood ;
+    margin: 0% 12%;
+
+    transition: all 1s ease;
+    }
+
+
+.exoticos{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 90%;
+    font-weight: 500;
+    line-height: 220%;
+}
+
+body{
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+h2{
+    color: aliceblue;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 260%;
+    margin-bottom: 6%;
+    font-weight: bold;
+    margin: 0% 5%;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    margin-bottom: 1%;    
+    margin-top: 1.5%;
+}
+
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 105%;
+    color: gray;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    margin: 4% 6%;
+}
+
+/*header*/
+
+header{
+    border: 1px solid green;
+    background-color: white;
+
+    border-radius: 1%;
+    width: 100%;
+
+    box-shadow: 0px 0px 29px 7px rgba(0,0,0,0.75);
+    padding: 0.9% 1% 0.6% 1%;
+}
+
+header nav{
+    background-color: white ;
+    margin: 0%;
+    display: none;
+}
+
+header:hover nav{
+    background-color: white ;
+    display: block;
+    transition: all 1s ease;
+}
+
+header nav a{
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: white;
+
+    text-decoration: none;
+
+    padding: 0.2em 0.2em;
+    margin: 0.25em 0.5em;
+
+    transition: all 0.5s ease;
+    display: block;
+}
+
+header nav a:hover{
+    
+    font-weight: 500;
+
+    padding: 0.2em 0.2em;
+    margin: 0.25em 0.15em;
+
+    letter-spacing: 0.10em;
+
+    transition: all 0.5s ease;
+}
+
+/*main*/
+
+/* no fuciona la clase rrss?? 
+hay que diferenciar los otros enlaces con el main
+
+enlaces de huellas, redes sociales*/
+header section div a{
+    font-size: 1.1em;
+
+    color: green;
+    background-color: white;
+
+    text-decoration: none;
+    padding: 0% 0%;
+    margin: 6% 0.25%;
+    display: inline-block;
+    background-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 6px;
+}
+
+
+header section div a:hover{
+    font-size: 110%;
+    color: yellowgreen;
+
+}
+
+
+main section div a{
+    font-size: 0.8em;
+    color: green;
+    text-decoration: none;
+    padding: 1%;
+
+    margin: 3% 40%;
+    display: block;
+    background-color: white;
+    border: 1px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+
+main section div a span{
+    display: none;
+
+}
+
+main section div a:hover{
+    color: white;
+    padding: 1%;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 4px;
+    transition: all 1s ease;
+    
+}
+
+main section div a:hover span{
+    display: inline-block;
+
+}
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    margin-top: 3%;
+    padding-top: 2%;
+}
+
+footer div a{
+    font-size: 1.1em;
+
+    color: green;
+    background-color: white;
+
+    text-decoration: none;
+    padding: 0% 0%;
+    margin: 6% 0.25%;
+    display: inline-block;
+    background-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-radius: 6px;
+}
+
+footer div p{
+    line-height: 1%;
+}
+
+.logo img{
+    width: 14%;
+}
+
+.footerlogo img{
+    width: 14%;
+}
+
+footer div a{
+    font-size: 160%;
+    margin: 0% 0.35%;
+}
+
+footer div a:hover{
+    font-size: 210%;
+    color: yellowgreen;
+}
+
+iframe{
+    width: 100%;
+}
+
+/*  FORMULARIO */
+
+.gris{
+    background-color:#ccc;
+}
+
+.mapa{
+    padding: 3%;
+}
+
+form{
+	width:100%;
+    height: 100%;
+    margin: 5%;
+
+	/*border-radius:10px;*/
+	margin:auto;
+}
+
+form label{
+    font-family: "Roboto";
+	width:100%;
+	font-weight:bold;
+	display:inline-block;
+    text-align: start;
+}
+
+form input[type="text"],
+form input[type="email"]{
+    font-family: "Roboto";
+	width:100%;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+    font-family: "Roboto";
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color: green;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+    font-family: "Roboto";
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
+                                /* ----------               ---------- */
+                                /* ---------- MEDIA AQUARIS ---------- */
+                                /* ----------               ---------- */
+
+/*                          
+.[col-=*{
+    width:100%;
+}                                
+*/
+
+[class*="col-"]{
+    width: 100%;
+}
+ 
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+    header nav a{
+        text-align: center;
+        text-transform: uppercase;
+        color: green;
+        font-size: 0.9em;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+        text-decoration: none;
+        padding: 0.2em 0.2em;
+        margin: 0.25em 0.5em;
+        transition: all 0.5s ease;
+        display: block;
+    }
+    
+    header nav a:hover{
+        font-weight: 500;
+        padding: 0.2em 0.2em;
+        margin: 0.25em 0.15em;
+        letter-spacing: 0.10em;
+        transition: all 0.5s ease;
+    }
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+    .col-3 {width: 50%;}
+    .flex768 {display: flex;}
+
+    /*gracias a esto creo que se quita elhover del movil*/
+    header:hover nav{
+    display: flex;
+    justify-content: center;
+}
+
+    header nav{
+    display: flex;
+    justify-content: center;
+}
+
+    h2{
+        font-size: 320%;
+    }
+
+
+}
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    /*
+    el submenu no sale del header cambiando su position
+    la distribución de los osos está mal y no sé porqué
+    los perros de desbordan 
+    el footer no ocupa el 100%
+    */
+
+/*Revisar esto*/
+
+h2{
+    font-size: 400%;
+}
+
+.logo img{
+    width: 35%;
+}
+
+.footerlogo img{
+    width: 35%;
+}
+
+/*IMPORTANTE ESTE FLEx*/
+header{
+    align-items: center;
+    display: flex;
+}
+
+header section{
+    justify-content: space-between;
+}
+
+/*PORQUÉ NO FUNCIONA???
+header section div a{
+    margin: 0% 200%;
+    padding: 0% 0%;
+}
+*/
+
+.txtimg{
+    text-align: center;
+    justify-content: center;
+}
+
+/*
+.logo{
+    width: 100%;
+}
+*/
+
+.flex992{
+    display: flex;
+}
+
+header{
+
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    padding: 2%;
+    margin: 1%;
+}
+
+
+.col-3 {width: 50%;
+        padding: 0%;
+}
+
+footer section{
+    justify-content: center;
+    align-items: center;
+}
+
+.rrss{
+    position: absolute;
+    display: flex;
+    right: 0;
+    margin-right: 6.5%;
+    margin-top: 0.7%;
+}
+
+}
+
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .logo img{
+        width: 100%;
+    }
+
+    .logo{
+        width: 35%;
+        align-items: center;
+        margin-left: 56%;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }
+
+    header nav{
+        position: relative;
+        bottom: 6px;
+        margin-left: 10%;
+    }
+
+    header section div a{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .rrss{
+        display: block;
+        width: 3%;
+        padding: 0.5% 0%;
+        position: absolute;
+        right: -4.5%;
+        top: 200px;
+        background-color: white;
+        border-radius: 6px;
+        border: 1px solid black;
+    }
+
+    .flex992{
+        justify-content: center;
+    }
+
+    h2{
+        font-size: 500%;
+    }
+
+    .col-6{
+        margin: 0% 0.25%;
+    }
+
+    .footerlogo img{
+        width: 20%;
+    }
+
+    .footerlogo{
+        text-align: right;
+        justify-content: end;
+    }
+
+    .footernav{
+        text-align:left ;
+        justify-content: start;
+    }
+
+}
+
+
+ 
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
+
+
+ 

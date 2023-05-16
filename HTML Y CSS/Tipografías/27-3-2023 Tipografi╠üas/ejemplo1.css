@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=EB+Garamond:ital@1&display=swap');
+
+  @font-face {
+    font-family: "Yakin";
+    src: url(./fonts/yakin/Yakin.ttf);
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    width: 80%;
+    margin: auto;
+    
+}
+
+body:hover{
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+section{
+    font-family: initial;
+}
+
+/*  
+    initial: valor del sistema 
+    unset: valor anterior (body x ejemplo)
+    inherit forzando la herencia
+*/
+
+h1{
+    font-family: unset;
+    margin: 20px 0px;
+}
+
+
+
+section h2{
+    font-family: 'EB Garamond', serif;
+}
+div{
+
+}
+
+p{
+    font-family: 'Abel', sans-serif;
+    text-align: justify;    
+    text-indent: 20px;    
+}
+
+h5{
+    font-family: 'Caveat', cursive;
+}
+
+.yakin{
+    font-family: "yakin"
+}
+
+
+  /* La transformación anterior es equivalente a esta (atajo) */

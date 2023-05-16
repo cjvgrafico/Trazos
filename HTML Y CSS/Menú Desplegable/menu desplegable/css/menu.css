@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 30px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.hamburguesa{
+    width: 32px;
+}
+
+.flecha{
+    filter: invert();
+    width: 11px;
+    position: absolute;
+    right: 8px;
+    top: 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+*{
+    padding:0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+header div{
+    position: relative;
+    z-index: 999;
+    background-color: white;
+}
+
+header:hover nav{
+    transition: all 1s ease;
+    top: 115px;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+   
+    top: -160px;
+    z-index: 0;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0px 30%;
+}
+
+nav ul li{
+
+    position: relative;
+}
+
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-size: 120%;
+}
+
+
+nav ul li a:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li ul{
+
+    margin-top: -8px;
+    opacity: 0;
+    height: 0px;
+    transition: all 1s ease;
+}
+
+nav ul li ul li a{
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+nav ul li:hover ul{
+
+    margin-top: 0px;
+    margin-bottom: 16px;
+
+    opacity: 1;
+    height: 160px;
+    
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.p{
+    padding: 10px 20px;
+    margin: 10px 10px;
+}
+
+[class*="col-"]{
+    width: 100%;
+    overflow: hidden;
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .col-3{
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-3 {width: 50%; }
+
+.hamburguesa{
+    display: none;
+}
+
+nav{
+    position: static;
+}
+
+nav > ul li{
+    display: inline-block;
+}
+
+nav ul li ul{
+    position: absolute;
+
+}
+
+nav ul li ul li{
+    display: block;
+}
+
+.flecha{
+    filter: invert();
+    width: 15px;
+    position: static;
+    margin-left: 12px;
+}
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  
+
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+    .col-3{
+            width: 25%;
+            padding: 10px;
+    }
+
+    .col-3 img{
+        transition: all 2s ease;
+    }
+
+    .col-3:hover img{
+        transform: scale(7) translateX(110px) translateY(25px);
+        transition: all 2s ease;
+    }
+
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 250px;
+        transition: all 0.5 ease;
+        height: 100%;
+        margin: 0px;
+        background-color: white;
+
+        left: -200px;
+        transition: all 1s ease;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    header:hover{
+        left: 0px;
+        transition: all 1s ease;
+    }
+
+    .sticky{
+        position: absolute;   
+    }
+
+    .flecha{
+        position: absolute;
+        margin-right: 20px;
+        margin-top: 7px;
+    }
+
+    .hamburguesa{
+        display: block;
+        width: 8%;
+        margin-right: 16px;
+        margin-top: 41px;
+    }
+
+    header nav{
+        left: 100px;
+        opacity: 0%;
+    }
+
+    header:hover nav{
+        left: 0px;
+        opacity: 100%;
+    } 
+
+    nav ul{
+        margin: 0px;
+    }
+
+    nav ul li{
+        display: block;
+        position: relative;
+    }
+
+    nav ul li ul{
+        position: static;
+        width: 100%;
+    }
+    
+    main{
+            margin-left: 40px;
+        }
+    
+    }
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
+
+
+         
+
+           
+ 

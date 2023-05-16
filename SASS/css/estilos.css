@@ -1,0 +1,143 @@
+/*Comentario de css*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+/*HEADER*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  text-align: center;
+}
+header nav {
+  background-color: #E6FFFD;
+  border: 1px solid black;
+}
+header nav a {
+  color: black;
+  font-family: Roboto;
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header nav a:hover {
+  background-color: #B799FF;
+  color: #ACBCFF;
+}
+
+@media (min-width: 768px) {
+  header nav a {
+    display: inline-block;
+  }
+}
+@media (min-width: 1200px) {
+  header nav {
+    text-align: right;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+/*CUERPO*/
+/*Comentario de css*/
+[class*=col-] {
+  width: 100%;
+  padding: 20px;
+}
+
+.flex, .flex-wrap {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.btn {
+  font-family: Qswald;
+  background-color: #E6FFFD;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 9px 9px 9x 9px black;
+  transition: all 0.6s easy;
+  text-decoration: none;
+  margin-top: 90px;
+}
+.btn:hover {
+  color: #E6FFFD;
+  background-color: white;
+  transition: all 0.7s ease;
+}
+
+@media (min-width: 992px) {
+  .col-8 {
+    width: 50%;
+  }
+  .col-4 {
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+/*FOOTER*/
+footer a {
+  text-decoration: none;
+}/*# sourceMappingURL=estilos.css.map */

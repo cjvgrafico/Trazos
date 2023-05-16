@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    text-align: center;
+    box-shadow: 0px 45px 47px 40px rgba(0,0,0,0.75);
+
+}
+
+header nav{
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 45px 47px 40px rgba(0,0,0,0.75);
+
+}
+
+.logo{
+    width: 30%;
+    margin: 1% 0%;
+}
+
+.navbar{
+    box-shadow: 0px 45px 47px 40px rgba(0,0,0,0.75);
+}
+
+.navbar a{
+    text-align: center;
+    text-transform: uppercase;
+    color: green;
+    font-size: 0.9em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+
+
+
+    text-decoration: none;
+
+    padding: 0.2em 0.2em;
+    margin: 0.25em 0.5em;
+
+    transition: all 0.5s ease;
+    display: block;
+}
+
+.navbar a:hover{
+    
+    font-weight: 500;
+
+    padding: 0.2em 0.2em;
+    margin: 0.25em 0.15em;
+
+    letter-spacing: 0.085em;
+
+    transition: all 0.5s ease;
+}
+
+
+h5{
+    font-family: 'Jua', sans-serif;
+    
+}
+
+.btn-primary{
+    font-size: 14px;
+    background-color: green;/practica_8.html
+    border: 1px solid white;
+    color:white;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+}
+
+.cuadro{
+    padding: 1.2% 6.5%;
+}
+
+.pt-5{
+    padding-top: 1rem !important;
+}
+
+.align{
+    text-align: center;
+}
+
+.gris{
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+}
+
+.yugioh:hover{
+     filter: blur(12);
+     filter:brightness(1.05)
+}
+
+.verde{
+    background-color: green;
+}
+
+.blanco{
+    background-color: white;
+}
+
+
+.carousel-item h5{
+    color: white;
+    font-size: 32px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+.carousel-item p{
+    color: white;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+
+h2{
+    margin-bottom: 0;
+    padding: 1% 1% 0.2% 1%;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+
+    font-family: 'Jua', sans-serif;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), 0px 0px 20px rgba(0,0,0,0.5);   
+}
+
+.carousel-item p{
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), 0px 0px 20px rgba(0,0,0,0.5); 
+    margin-bottom: 0.2%;
+}
+
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 120%;
+    margin-bottom: 1%;
+    margin-top: 1.5%;
+
+   
+}
+
+footer{
+    margin: -4.35% 0%;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: 200;
+    font-family: Roboto;
+}
+
+.list-group-item.active{
+    background-color: green;
+    border: 1px solid white;
+}
+
+.círculo{
+    border-radius: 100%;
+    padding: 0.01% 0%;
+}
+
+.separat{
+    padding: 1.1%;
+}
+
+/*font-family: 'Roboto', sans-serif;*/
+
+

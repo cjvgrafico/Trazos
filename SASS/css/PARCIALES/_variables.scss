@@ -1,0 +1,26 @@
+//las variables se crean con el símbolo del dólar. 
+
+$azul_corporativo: #E6FFFD;
+
+// que es un mixin???? es yna funcion 
+
+@mixin boton{
+    font-family: Qswald;
+
+    background-color: $azul_corporativo;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 9px 9px 9x 9px black;
+
+    transition: all 0.6s easy;
+    text-decoration: none;
+
+    margin-top: 90px;
+}
+
+@mixin boton_sobre{
+    color: $azul_corporativo;
+    background-color: white;
+    transition: all 0.7s ease;
+}

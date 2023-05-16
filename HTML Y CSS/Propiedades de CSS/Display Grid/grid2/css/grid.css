@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.padding_1{
+    padding: 4%;
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 10% 50% 20% 10%;
+
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+
+    grid-template-areas: 
+        "header" 
+        "nav"
+        "article"
+        "aside"
+        "footer";
+}
+
+header, nav, article, aside, footer{
+}
+
+header{
+    grid-area: header;
+/*    background-color: #ABC4AA;  */
+    background-color: #fff;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #EA5455;
+    display: block;
+}
+
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+    color: #EA5455;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #EA5455;
+    
+    border-radius: 0%;
+    margin: 2% 2%;
+    text-indent: 5%;
+}
+
+article{
+    grid-area: article;
+}
+
+.article_dentro{
+
+    text-align: center;
+    padding: 2%;
+    border: 0px solid white;
+}
+
+article a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    
+    color: #EA5455;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #EA5455;
+    border-radius: 2%;
+    margin: 20% 12%;
+    text-indent: 5%;
+
+    padding: 0.5% 1%;
+}
+
+.logo{
+    width: 16%;
+}
+
+.flex_768{
+    display: flex;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75%;
+    font-weight: 600;
+    letter-spacing: 250%;
+    color: white;
+}
+
+aside{
+    grid-area: aside;
+    background-color: #675D50;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #ABC4AA;
+}
+
+nav{
+    display: block;
+}
+
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) {
+
+    nav{
+        display: flex;
+    }
+ }
+
+@media (min-width: 992px) {
+    .cuerpo{
+
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 10% 10% 60% 20%;
+        grid-template-areas: 
+            "header header" 
+            "nav nav"
+            "article aside"
+            "footer footer";
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .cuerpo{
+   
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 10% 70% 20%;
+        grid-template-areas: 
+            "header header header" 
+            "nav article aside"
+            "footer footer footer";
+    }
+
+    nav a{
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+
+ }

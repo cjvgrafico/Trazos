@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    margin-top: 200px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+    text-align: center;
+}
+
+#boton1{
+    
+    display: inline-block;
+    background-color: saddlebrown;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+
+    animation: botoncito 1.5s ease infinite;
+
+}
+
+#boton2{
+    
+    display: inline-block;
+
+    
+    animation: botoncito2 1.5s ease infinite;
+}
+
+@keyframes botoncito {
+    from{
+        background-color: saddlebrown;
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+    }
+
+    to{
+        background-color: beige;
+        padding: 50px;
+        border-radius: 40px;
+        color: black;
+    }    
+}
+
+@keyframes botoncito2 {
+    from{
+        background-color: black;
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+   
+
+    }
+
+    to{
+        background-color: white;
+        padding: 50px;
+        border-radius: 40px;
+        color: black;
+        border: 10px solid black;
+
+    }    
+}

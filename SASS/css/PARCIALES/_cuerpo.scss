@@ -1,0 +1,66 @@
+/*CUERPO*/
+
+/*Comentario de css*/
+//Comentario de sass
+
+
+// Small devices (landscape phones, 576px and up)
+
+[class*="col-"]{
+    width: 100%;
+    padding: 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    //esto es etender una clase dentro de otra
+    @extend .flex;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.btn{
+    @include boton;
+    &:hover{
+        @include boton_sobre;
+    }
+}
+
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+    .col-8{
+        width: 50%;
+    }
+
+    .col-4{  
+        width: 50%;
+    }
+ }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-8 {width: 66.66%;}
+.col-12 {width: 100%;}
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  }
+
+//Variables de scss y mixings. en sass se trabaja con PARCIALES. los parciales son varias hojas de scss. loa rachivos se nombran cpn un guion antes. 

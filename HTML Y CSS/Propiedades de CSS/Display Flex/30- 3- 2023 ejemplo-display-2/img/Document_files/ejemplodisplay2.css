@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:70%;
+    margin:auto
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{}
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.extremos{
+    justify-content: space-between;
+}
+
+.centrar{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.tresfilas{
+    width: 33,33%;
+}
+
+.dosfilas{
+    width: 50%;
+}

@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Phoenician&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 75%;
+    margin: auto;
+    max-width: 100%;
+
+    filter: hue-rotate(10deg);
+}
+
+header{
+    margin: 10px 0px;
+    padding: 0px 10px;
+
+    background-image: linear-gradient(90deg, rgba(102,52,127,0) 0%, rgba(0,11,73,1) 100%), url(../img/shot-by-cerqueira-0o_GEzyargo-unsplash-copy.jpg.jpg.jpg);
+
+    background-repeat: no-repeat;
+
+    box-sizing: border-box;
+    position: sticky;
+    top: 10px;
+    z-index: 9;
+}
+
+header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ 
+    width:auto;
+}
+
+header section nav a{
+    font-weight: lighter;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: 'Archivo Black', sans-serif;*/
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px 10px;
+    padding: 4px 8px;
+    border: solid white 0px;
+    
+    filter: drop-shadow(0 0 15px #FFB5B5) drop-shadow(0 0 20px #9B0000) contrast(1) brightness(2);
+    transition: .5s;
+    border-radius: 4px;
+
+}
+
+.efectodeluz:hover{
+    color: black;
+    background-color: #FFB5B5;
+    filter: drop-shadow(0 0 10px #FF7272) contrast(1) brightness(2);
+  }
+
+.logo{
+    width: 50%;
+    filter: grayscale(100%);
+    margin: 4px 2px 2px 2px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.block{
+    display: block;
+}
+
+.dos{
+    width: 50%;
+}
+
+.tres{
+    width: 33.33%;
+}
+
+.seis{
+    width: 66.66%;
+}
+
+#afiliado{
+    text-align: right;
+}
+
+#afiliado input[type=text]{
+    width: 75%;
+}
+
+section{
+    margin: 20px 0px;
+}
+
+.separacions{
+    margin: 20px 0px
+}
+
+.separacionp{
+    padding: 20px;
+}
+
+.separaciond{
+    margin-right: 0px;
+}
+
+.separacionh{
+    margin-left: 50px;
+}
+
+.centrar{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+h1{
+    /*font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;*/
+
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    margin: 10px;
+    letter-spacing: -0.5px;
+    transition-duration: 2s;
+
+    color: #232323;
+}
+
+h1:hover{
+    
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    margin: 10px;
+    letter-spacing: 0px;
+
+    transition-duration: 2s;
+    color: black;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    text-indent: 20px;
+}
+
+.capital{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    word-spacing: 60px;
+   
+    
+}
+
+.byn{
+    filter: grayscale(100);
+}
+
+.byn:hover{
+    filter: grayscale(0) saturate(1.5);
+}
+
+.ajustarimg{
+    width: 90%;
+}
+
+.carta{
+    
+    padding: 20px 40px;
+}
+
+ul{
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+li{
+    margin: 0px 10px;
+}
+
+.extremos{
+    justify-content: space-between;
+}
+
+footer section div{
+    margin: 0px 20px;
+}
+
+.estilouno{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    font-style: oblique;
+}
+
+.borde{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.anchoint{
+    padding: 0px 30px;
+}
+
+/* PROBANDO AGREGAR ESTILOS AL BOTÓN PARA EL FORMULARIO
+
+.boton{
+    border-radius: 2px;
+    padding: 4px;
+    
+}
+
+*/
+
+main section div{
+
+    margin-top: 10px;
+
+}
+
+main section div a{
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: slategray;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+
+}
+
+img{
+    border-radius: 5px;
+}
+
+.ampliar{
+    padding: 4px 4px;
+}
+
+.alien{
+    font-family: 'Noto Sans Phoenician', sans-serif;
+}

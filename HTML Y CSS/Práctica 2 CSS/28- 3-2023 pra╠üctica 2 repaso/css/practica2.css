@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    padding: 0px 0px;
+    
+}
+
+header section{
+
+    margin: 15px 0px;
+
+}
+
+.logo{
+    margin: 2px ;
+    width: 35%;
+}
+
+ul{
+    list-style: none;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    
+    border-radius: 5px;
+    margin: 5px 2px;
+    display: inline-block;
+    font-size: 12px;
+    border: solid 1px white;
+}
+
+nav a:hover{
+    background-color: white;
+    color: gray;
+
+}
+
+
+.rrss{
+    text-align: right;
+    padding: 10px;
+    margin: 0px 0px;
+  
+
+}
+
+header section a{
+    margin: 0px 5px 5px 5px;
+}
+
+
+#banner{
+    background-image: url(../img/escola.jpeg);
+    background-attachment: fixed;
+    padding: 100px 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+iframe{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+section{
+    margin: 10px 0px;
+}
+
+div{
+    margin: 10px 0px;
+}
+
+.cuerpo{
+    width: 80%;
+    margin: auto;}
+
+p, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 2px 0px;
+    line-height: 22px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin: 20px 0px;
+    font-size: 24px;
+}
+
+li{
+    margin-left: 10px
+}
+
+
+main section a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    
+    border-radius: 5px;
+    margin: 5px 2px;
+    display: inline-block;
+    font-size: 12px;
+    border: solid 1px gray;
+}
+
+main section a:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.sec2{
+    margin: 0px 0px;
+    margin-left: 200px;
+
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);  /* blue with opacity */
+    line-height: -8px}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 0px 0px;
+    padding-bottom: 5px;
+    
+    
+}
+
+footer div{
+  
+    margin: 20px;
+    padding-top: -20px;
+}
+
+footer div p{
+    font-size: 10px;
+    color: white;
+    text-transform: lowercase;
+    line-height: 14px;
+}
+
+main section a{
+    text-align: right;
+}
+
+h3{
+    margin: 10px 0px;
+    font-family: 'Oswald', sans-serif;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+footer a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    
+    border-radius: 5px;
+    margin: 5px 2px;
+    display: inline-block;
+    font-size: 12px;
+    border: solid 1px gray;
+}
+
+footer a:hover{
+    background-color: black;
+    color: white;
+
+}

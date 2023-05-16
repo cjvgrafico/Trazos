@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #A9907E; */
+    background-color: #A9907E;
+
+}
+
+nav{
+    height: 20%;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #EA5455;
+    text-decoration: none;
+    padding: 15% -200%;
+    background-color: #fff;
+    border: 1px solid #EA5455;
+    border-radius: 2%;
+    margin: 2% 12%;
+    text-indent: 5%;
+}
+
+.logo{
+    width: 16%;
+    filter: hue-rotate(180);
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 600;
+    letter-spacing: 250%;
+    color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+.cuerpo{
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 10% 50% 20% 10%;
+/*
+    grid-auto-rows: minmax(100px, auto);
+
+    */
+
+    grid-template-areas: 
+        "header" 
+        "nav"
+        "article"
+        "aside"
+        "footer";
+}
+
+header, nav, article, aside, footer{
+}
+
+header{
+    grid-area: header;
+/*    background-color: #ABC4AA;  */
+    background-color: #fff;
+}
+
+nav{
+    grid-area: nav;
+    background-color: #EA5455;
+}
+
+article{
+    grid-area: article;
+}
+
+.article_dentro{
+    padding: 5%;
+    border: 2px solid white;
+
+}
+
+aside{
+    grid-area: aside;
+    background-color: #675D50;
+}
+
+footer{
+    grid-area: footer;
+    background-color: #ABC4AA;
+}
+
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) {
+    .cuerpo{
+
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 10% 10% 60% 20%;
+        grid-template-areas: 
+            "header header" 
+            "nav nav"
+            "article aside"
+            "footer footer";
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .cuerpo{
+   
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 10% 70% 20%;
+        grid-template-areas: 
+            "header header header" 
+            "nav article aside"
+            "footer footer footer";
+    }
+
+    nav a{
+        display: block;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+
+ }

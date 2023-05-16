@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloqueuno{
+    background-color: white;
+    height: 100px;
+}
+
+.logo{
+    filter: hue-rotate(190deg);
+    transform: rotate(6deg);
+    position: absolute;
+    z-index: 9;
+    top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.brillo:hover{
+    filter: brightness(1.5);
+    transition: 1s;
+}
+
+.gris{
+    background-color: whitesmoke;
+}
+
+.marron{
+    background-color: blue;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    position: sticky;
+
+}
+
+.enlace{
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease ;
+    padding: 8px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.enlace:hover{
+    background-color: beige;
+    color: white;
+    transition: all 0.5s ease ;
+}
+
+input, textarea, select{
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+form p{
+    margin-top: 20px;
+    color: brown;
+}
+

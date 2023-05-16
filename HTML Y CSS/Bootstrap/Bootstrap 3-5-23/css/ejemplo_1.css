@@ -1,0 +1,20 @@
+.azul{
+    background-color: blue;
+}
+
+.rosa{
+    background-color: blueviolet;
+}
+
+.naranja{
+    background-color: orange;
+}
+
+.azulclaro{
+    background-color:aqua;
+}
+
+div{
+    height: 100px;
+    border: 2px solid white;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+nav{
+    background-color:whitesmoke;
+}
+
+.nav-link{
+    color: rgb(124, 150, 171);
+}
+
+.nav-link :active{
+
+}
+
+.btn-outline-success{
+    color: rgb(124, 150, 171);
+    border: 1px solid #7C96AB;
+}
+
+.btn:hover{
+    background-color: #7C96AB;
+    border: 1px solid whitesmoke;
+}
+
+.buscar{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h5{
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+h6{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+p{
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
+}
+
+.texto{
+    font-size: 14px;
+    color: #000;
+    text-shadow: none;
+}
+
+.carousel-item{
+    vertical-align: middle;
+}
+
+.btn{
+    font-size: 70%;
+}
+
+@media (min-width: 1400px) {
+
+    .s_uno{
+        height: 500px;
+        border: 10px solid red;
+    }
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    border: 1px solid black;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    padding: 2px 20px;
+    align-items:center;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 10px;
+    z-index: 9;
+    box-shadow: red 0px 0px 8px 2px;
+    border-radius: 8px;
+}
+
+header nav{
+ 
+    padding: 0px 4px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 22px 22px;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: rgba(255,255,255,0.2) 0px 0px 36px 1px;
+
+}
+
+header nav a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+
+    border: 1px solid red;
+    border-radius: 8px;
+    box-shadow: red 0px 0px 4px 1px;
+    
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+    transition: 0.6s;
+}
+
+header nav a:hover{
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    box-shadow: green 0px 0px 8px 2px;
+    text-shadow: 1px 1px 2px green, 0 0 1em green, 0 0 0.2em green;
+    transition: 0.6s;
+}
+
+/*selctor por atributo*/
+
+div[class*="col-"]{
+
+    padding: 20px;
+
+}
+
+a[href*="http://elpais.com"]
+{
+    color: aqua;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.flex{
+    display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+footer{
+    align-items: center;
+}
+
+footer div a{
+    font-size: 15px;
+    text-decoration: none;
+    color: red;
+    padding: 4px 10px;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+
+    border: 1px solid red;
+    border-radius: 8px;
+    box-shadow: red 0px 0px 4px 1px;
+    
+    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+    transition: 0.6s;
+}
+
+footer div a:hover{
+    color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    box-shadow: green 0px 0px 8px 2px;
+    text-shadow: 1px 1px 2px green, 0 0 1em green, 0 0 0.2em green;
+    transition: 0.6s;
+}
+
+.social{
+    font-size: 16px;
+}

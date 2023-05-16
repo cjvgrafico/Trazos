@@ -1,0 +1,16 @@
+/*Comentario de css*/
+//Comentario de sass
+
+//Variables de scss y mixings. en sass se trabaja con PARCIALES. los parciales son varias hojas de scss.  Ponemos la media queries en las 3 hojas. Los archivos que genera son el .css y el .css map
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@import 'parciales/variables';
+
+@import 'parciales/header';
+@import 'parciales/cuerpo';
+@import 'parciales/footer';
+
+
+

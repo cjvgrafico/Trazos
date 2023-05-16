@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/grid.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    
+<link rel="stylesheet" href="./GRID_files/grid.css"></head>
+<body>
+
+    <header class="flex f-wrap">
+        <img src="./GRID_files/81.jpeg" alt="">
+
+        <nav>
+            <a href="http://127.0.0.1:5500/grid.html">Inicio</a>
+            <a href="http://127.0.0.1:5500/grid.html">Servicios</a>
+            <a href="http://127.0.0.1:5500/grid.html">Contacto</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section>
+            <div>
+                <img src="./GRID_files/akai1.jpeg" alt="">
+            </div>
+            <div>
+                <img src="./GRID_files/akai2.webp" alt="">
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis ipsa impedit assumenda vitae voluptatum odio omnis. Quis sapiente voluptate quibusdam labore aut et harum veritatis fugiat! Alias, voluptas minus!</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <img src="./GRID_files/akai3.png" alt="">
+                <a href="http://127.0.0.1:5500/grid.html"></a>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta voluptate rem veniam nemo maiores rerum, asperiores quasi nobis inventore, porro dolor! Molestiae, expedita itaque in saepe non omnis maxime rerum!</p>
+            </div>
+            <div>
+                <img src="./GRID_files/akai4.png" alt="">
+                <a href="http://127.0.0.1:5500/grid.html"></a>
+            </div>
+
+        </section>
+
+        <section>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, laborum nemo vero incidunt repellendus minima enim libero cum deserunt veritatis? Iure, sapiente. Placeat, itaque reprehenderit fugit veritatis voluptate labore! Aut.</p></div>
+            <div>
+                <img src="./GRID_files/akai5.jpeg" alt="">
+            </div>
+            <div>
+                <div> <img src="./GRID_files/akai6.jpeg" alt=""></div>
+                <div> <img src="./GRID_files/akai7.jpeg" alt=""></div>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae minima optio exercitationem aperiam perspiciatis eum, modi inventore error amet ad tenetur veniam eligendi nesciunt delectus odio laboriosam, fugit, aliquam hic!</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+        <img src="./GRID_files/akai8.jpeg" alt="">
+        </div>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque harum atque asperiores id quam doloremque pariatur tempora! Quaerat vitae nihil voluptate voluptates velit consequuntur perspiciatis possimus, ullam laborum facere ipsa.</p>
+        </div>
+        <div>
+            <ul>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div>
+            <a href="http://127.0.0.1:5500/grid.html">facebook</a>
+            <a href="http://127.0.0.1:5500/grid.html">facebook</a>
+            <a href="http://127.0.0.1:5500/grid.html">facebook</a>
+            <a href="http://127.0.0.1:5500/grid.html">facebook</a>
+        </div>
+
+
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

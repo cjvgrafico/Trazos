@@ -1,0 +1,111 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+.logo {margin-left: 0px;
+    width: 100px;}
+.medieval{font-family: 'Yeseva One', cursive;
+     color: gray; 
+     font-size: 8mm;}
+
+body{
+    background-color: white;
+}
+
+header{
+    /*comentarios*/
+    background-color: white;
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+a {text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    font-family:'Roboto', sans-serif;
+    font-size: small;
+    
+    }
+
+img{
+    max-width: 100%;
+}
+
+nav{
+    background-color: paleturquoise;}
+    
+
+nav a{
+   background-color: paleturquoise
+   
+}; 
+
+
+
+nav a:hover{
+    background-color: cyan;
+    width: 100px;
+    color: #000;
+}
+
+div p{color: black;}
+
+.contenedor{ 
+        width:80%;
+        margin:50 px auto;
+        }
+
+.centrar{
+    text-align: center;
+}
+
+.separar-vertical {
+    margin: 10px 0;
+ }
+
+ section div a {
+    padding: 10px 15px;
+    margin: 10px 0px;
+    background-color: aqua;
+    border-radius: 1px 16px 1px 16px;
+    display: inline-block;
+ }
+
+ section div a:hover {
+    padding: 12px 17px;
+    margin: 0px;
+    background-color: gold;
+    border-radius: 1px 18px 1px 18px;
+    margin: 10px 0px; 
+    display: inline-block;
+    
+ }
+
+#destacado{
+    background-color: papayawhip;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+    font-stretch: condensed;
+    text-transform: capitalize ;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+ }
+
+  #destacado span{
+    color: red;
+
+  }
+
+footer{
+    border-top: 2px solid black;
+}
+
+.fondo-gris{background-color: gray;}
