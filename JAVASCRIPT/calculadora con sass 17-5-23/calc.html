@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALC</title>
+    <!--SE ENLAZA SIEMPRE EL CSS-->
+    <link rel="stylesheet" href="./css/calc.css">
+    <script src="./js/calc.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="./img/Caixabank-oyau3wqih5k64s0766bfkszkg57o9paxczswagaku8.png" alt="">
+        <h1>Calculadora de Sueldo Neto</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>
+                Sección de toma de datos
+            </h2>
+            <div>
+                <label for="">Sueldo bruto anual</label>
+                <input type="number" id="bruto" placeholder="Escribe tu sueldo (en €)">
+            
+            </div>
+            <div>
+                <label for="">Número de hijos</label>
+                <select name="" id="hijos">
+                    <option value="">Escoge una opción</option>
+                    <option value="0.85">No tengo hijos</option>
+                    <option value="0.90">1 o 2 hijos</option>
+                    <option value="0.95">3 o más hijos</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Tipo de contrato</label>
+                <select name="" id="contrato">
+                    <option value="">Escoge una opción</option>
+                    <option value="0.85">Indefinido</option>
+                    <option value="0.90">Temporal</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Número de pagas</label>
+                <select name="" id="pagas">
+                    <option value="">Escoge una opción</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                </select>
+            </div>
+            <div>
+                <button id="boton" onclick="calcular()">Calcular</button>
+                <div><p id="vacío"></p></div>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Su cáculo de sueldo mensual en <span id="respuestaPagas">__</span> pagas </h2>
+                <div>
+                    <p>Retencion por hijos</p>
+                    <p class="respuesta" id="respuestaHijos"></p>
+                </div>
+                <hr>
+                <div>
+                    <p>Retencion por contrato</p>
+                    <p class="respuesta" id="respuestaContrato"></p>
+                </div>
+                <hr>
+                <div>
+                    <p>Sueldo neto mensual</p>
+                    <p class="respuesta" id="respuestaNeto"></p>
+                </div>
+                <hr>
+        </section>
+    </main>
+    
+    <footer>
+        <div>
+            <img src="./img/Caixabank-oyau3wqih5k64s0766bfkszkg57o9paxczswagaku8.png" alt="">
+        </div>
+        <div>
+            <h3>©2023 Todos los derechos reservados</h3>
+        </div>
+
+    </footer>
+</body>
+</html>

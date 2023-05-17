@@ -1,0 +1,149 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    width: 100%;
+	height: 100%;
+	background-color: #F7F6F4;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.logo{
+    width: 100px;
+}
+
+nav{
+    margin-bottom: 5px;
+    margin-left: 755px;
+    
+    display: flex;
+    
+
+    padding-bottom: 0px;
+    align-items: end;   
+}
+
+nav a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: #000;
+    background-color: #ffffff;
+
+
+
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div a{
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+color: #000;
+background-color: #ffffff;
+
+
+
+padding: 8px;
+font-size: 12px;
+border-radius: 10px;
+}
+
+div a:hover{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    }
+
+div{
+
+    margin: 12px 0px;
+    
+}
+
+h2{
+    margin: 15px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2:hover{
+    cursor:grab;
+}
+
+.parrafoli{
+    margin: 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+   
+}
+
+ul{
+    padding-right: -500000px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+    background-color: beige;
+}
+
+ol{
+    margin: 10px 0px;
+}
+
+.image{
+ width: 100%;
+ max-width: 1280px;
+}
+
+section h2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.linea{
+    background-color: black;
+    margin: 30px 0px;
+    padding: 1px 0px;
+}
+
+footer{
+    border-top: 20px #000;
+    padding-bottom: 20px;
+}
+
+footer a{
+    
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+color: #000;
+background-color: #ffffff;
+
+padding: 8px;
+font-size: 12px;
+border-radius: 10px;
+}
+
+footer a:hover{
+    background-color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    }
+    
+

@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+$playfair: 'Playfair Display', serif;
+$roboto: 'Roboto', sans-serif;
+
+$azulcorp: #039ED6;
+$azulfont: #039ED6;
+
+@mixin boton{
+    background-color: $azulcorp;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: all 0.7s ease;
+}
+
+@mixin boton-sobre{
+    background-color: white;
+    color: $azulfont;
+    border: 1px solid $azulcorp;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    text-transform: capitalize;
+    font-family:$playfair;
+    font-style: italic;
+    background-color: $azulcorp;
+    padding: 14px;
+    font-size: 38px;
+    color: white;
+
+}
+
+main{
+    width: 70%;
+    margin: 50px auto;
+    background-color: $azulcorp;
+    padding: 40px 0px;
+        section{
+            font-family: $playfair;
+            background-color: white;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            h2{
+                font-family: $playfair;
+                margin-bottom: 22px;
+            }
+           div{
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0px;
+            input, select{
+                padding: 5px;
+                width: 40%;
+            }
+            button{
+                @include boton;
+                //amperson se utiliza para referirse a si mismo y no a otp elemento igual que se encuentre dnto de él mismo
+                &:hover{
+                    @include boton-sobre;
+                }
+            }
+
+            &:last-child{
+                display: block;
+                text-align: right;
+            }
+        }
+    }
+}
+
+.respuesta{
+    font-family: 'VT323';
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    margin: 0px 250px;
+    h3{
+        font-family: $roboto;
+        font-size: 16px;
+        margin-left: 34px;    
+    }
+}
+
+@media (max-width: 1200px) { 
+    main{
+        width: 50%;
+    }
+}
+
+@media (max-width: 992px) { 
+    main{
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 768px) { 
+    main{
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    main{
+        width: 100%;
+    }
+ }
+
+
+
+
+
